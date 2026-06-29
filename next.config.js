@@ -8,8 +8,6 @@ const nextConfig = {
       "images.unsplash.com",
       "ext.same-assets.com",
       "ugc.same-assets.com",
-      "m.media-amazon.com",
-      "koreanskincare.com",
     ],
     remotePatterns: [
       {
@@ -32,17 +30,8 @@ const nextConfig = {
         hostname: "ugc.same-assets.com",
         pathname: "/**",
       },
-      {
-        protocol: "https",
-        hostname: "m.media-amazon.com",
-        pathname: "/**",
-      },
-      {
-        protocol: "https",
-        hostname: "koreanskincare.com",
-        pathname: "/**",
-      },
     ],
   },
 };
+
 module.exports = nextConfig;
